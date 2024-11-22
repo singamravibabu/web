@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <form action="/submit" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required pattern="[A-Za-z0-9]{5,}">
+            <small>Username must be at least 5 characters long and contain only letters and numbers</small>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required minlength="8">
+            <br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+            <br><br>
+            
+        </form>
+    </body>
+</html>
