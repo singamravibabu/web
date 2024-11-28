@@ -1,0 +1,22 @@
+/* Element Selector: Targets all elements of a given type */
+p {
+    color: purple;
+    font-family: Arial, sans-serif;
+}
+
+/* Class Selector: Targets elements with a specific class */
+.box {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+/* ID Selector: Targets an element with a specific ID */
+#main-heading {
+    text-align: center;
+    color: red;
+}
+
+/* Group Selector: Applies the same style to multiple selectors */
+h1, h2, p {
+    font-family: 'Verdana';
+}
